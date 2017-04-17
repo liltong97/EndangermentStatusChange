@@ -1,0 +1,20 @@
+.legend {
+  margin-left: 0;
+}
+
+table.dataframe, .dataframe th, .dataframe td {
+  border: 2px;
+  text-align:left;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 0.9em;
+}
+
+.dataframe th {
+    background-color: #77dd77;
+    color: white;
+}
+tr:nth-child(odd)        { background-color:#eee; }
+tr:nth-child(even)    { background-color:#fff; }
+
+tr:hover            { background-color: #ffff99;}
